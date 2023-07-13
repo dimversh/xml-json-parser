@@ -31,7 +31,8 @@ public class Main {
     public static List<Employee> parseXML(String fileName) throws
             ParserConfigurationException,
             IOException,
-            SAXException {
+            SAXException 
+    {
         List<Employee> stuffList = new ArrayList<>();
         DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
         DocumentBuilder builder = factory.newDocumentBuilder();
